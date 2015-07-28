@@ -46,7 +46,12 @@ class AppController extends Controller {
                 'controller' => '',
                 'action' => 'index'
             ),
-            'authorize' => array('Controller')
+            'authorize' => array('Controller'),
+            'flash'=>array(
+				'element'=>'alert',
+				'key'=>'auth',
+				'class'=>'alert-danger'
+            )
         )
 	);
 
